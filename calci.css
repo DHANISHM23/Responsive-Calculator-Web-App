@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url(https://cdn.theanimegallery.com/theanimegallery/6c871a84-d56c-487f-9b80-080ebbbaae7b-anime-background-wallpaper.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.calculator {
+  background-image: url(https://cdn.theanimegallery.com/theanimegallery/6fc8f552-82e8-4ef6-b092-73e5becbfc47-beautiful-anime-background.webp);
+  padding: 15px;
+  border-radius: 30px;
+  box-shadow: inset -5px -5px -12px #ffff,
+    inset 5px 5px 12px rgba(0, 0, 0, 0.16);
+  display: grid;
+  box-shadow: 0px 5px 50px black;
+  grid-template-columns: repeat(4, 68px);
+  position: sticky;
+}
+#display {
+  grid-column: span 4;
+  height: 70px;
+  width: 260px;
+
+  background-color: rgb(113, 210, 251);
+  box-shadow: inset 5px 5px 30px rgba(14, 0, 0, 0.16);
+  border: none;
+  border-radius: 10px;
+  color: rgb(10, 10, 10) !important;
+  font-size: 50px;
+  text-align: end;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  padding: 20px;
+}
+button {
+  height: 48px;
+  width: 48px;
+  background-color: wheat;
+  box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.16);
+  border: none;
+  border-radius: 50px;
+  margin: 8px;
+  cursor: pointer;
+  font-size: 18px;
+}
+.equal {
+  width: 115px;
+  border-radius: 8px;
+  background-color: red;
+}
+button:hover {
+  transform: scale(1.05);
+  background-color: red;
+  box-shadow: 0px 0px 15px rgb(231, 8, 8);
+}
+.quote-box {
+  padding-left: 50px;
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  color: rgb(34, 26, 26);
+  text-shadow: 1px 0px 2px #000;
+  font-family: "Courier New", monospace;
+}
+.bg {
+  color: rgb(250, 63, 63);
+
+  font-size: 40px;
+  font-family: "Playwrite AU QLD", cursive !important;
+}
