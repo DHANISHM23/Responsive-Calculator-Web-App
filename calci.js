@@ -32,7 +32,7 @@ const quotes = [
 ];
 
 function displayval(num) {
-  display.value += num;
+  outputscreen.value += num;
 }
 
 function calculation() {
